@@ -1,0 +1,390 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower    /* Google Fonts用のCSSを読み込み */
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Indie Flower', '游ゴシック', YuGothic, 'メイリオ', Verdana, cursive;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #fdfcf6;
+}
+
+/* a
+{
+    text-decoration: none;
+
+    color: #14c0c9;
+}
+a:visited
+{
+    color: #0f949b;
+}a:hover
+{
+    color: #0f949b;
+    text-decoration: underline;
+}
+a:active
+{
+    color: #16d6e0;
+} */
+
+.text-center
+{
+    text-align: center;
+}
+
+.logo
+{
+    height: 40px;
+    width: 40px;
+    padding-top: 6px;
+}
+
+.full-width
+{
+    width: 100%;
+}
+
+/*.top-himawari*/
+{
+    height: 100vh;
+}
+
+.top
+{
+    background-image: url("../images/tophimawari.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#nav-menu
+{
+    display: inline;
+    float: left;
+    padding-right: 20px
+}
+
+.menu_contact
+{
+    padding-right: 50px;
+}
+
+#menu
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.menu-item
+{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(255,184,106,0.5);
+    z-index: 100;
+}
+
+
+p {
+  font-size: 12px;
+  color: #ffa800;
+}
+
+h4 {
+    font-size: 15px;
+    color: #ffa800;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+h1.yashi {
+    position: absolute;
+    top: 220px;
+}    
+
+h1.port {
+    position: absolute;
+    top: 330px;
+}    
+
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ffa800;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about {
+    /*height: 700px;*/
+    padding-bottom: 100px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h4 {
+    font-size: 15px;
+    color: #ffa800;
+    padding-left: 120px;
+}
+
+.myphoto {
+    padding-left: 120px;
+}
+
+.myworks_title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.mywork {
+  float: left;
+  width: 33%;
+}
+
+.myworks {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.mywork-icon {
+  position: relative;
+}
+
+.mywork-icon h3 {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  color: #3f3801;
+}
+
+.txt-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #3f3801;
+}
+
+.clear {
+    clear: left;
+}
+
+.works {
+    background-color: #fbecc5;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.works h2 {
+    padding-top: 70px;
+}
+
+.works p {
+  font-size: 12px;
+  color: #ffa800;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.works_icon {
+    width: 300px;
+}
+
+.work_photo {
+  float: left;
+  width: 33%;
+}
+
+.work_photo h4 {
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.works_photo {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill {
+}
+
+.skill h4 {
+    font-size: 20px;
+}
+
+.skill h2 {
+    padding-bottom: 40px;
+}
+
+.skill_container {
+    width: 900px;
+    margin: auto;
+    padding-left: 70px;
+}
+
+.skills_ui {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills_li {
+    flex: auto;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill_icon {
+    padding-right: 20px;
+}
+
+.contact {
+    text-align: center;
+    margin: auto;
+}
+
+.contact p {
+    padding-top: 10px;
+}
+
+.mail {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2.8rem;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+}
+
+.circle {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background-color: #ffa800;
+    text-align: center;
+    line-height: 70px;
+}
+
+.fa-envelope {
+    margin: 12px 0px 0px 3px;
+}
+
+.mail :hover
+{
+    background-color: #ffb86a;
+}
+
+.himawari_container {
+    height: 112px;
+}
+
+.himawari {
+    float: right;
+    padding-right: 120px;
+}
+
+footer
+{
+    width: 100%;
+    height: 55px;
+    background-color: #add059;
+    position: relative;
+    z-index: -1;
+}
+
+.footer_container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    padding: 10px 10px 0px 1px;
+}
+
+.himawari_s {
+    padding-top: 10px;
+}
+
+.to_top {
+    position: absolute;
+    right: 120px;
+    bottom: 45px;
+    font-size: 20px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: top;
+}
+
+.to_top_circle {
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 35px;
+    color: #fff;
+    -webkit-border-radius: 10%;
+       -moz-border-radius: 10%;
+            border-radius: 10%;
+    background-color: rgba(255,228,0,0.5);
+    text-align: center;
+}
+
+.to_top_circle :hover
+{
+    background-color: #ffb86a;
+}
+
